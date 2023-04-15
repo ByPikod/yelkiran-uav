@@ -1,2 +1,2 @@
-# yelkiran-uav
+# Yelkıran UAV Team
 Yelkiran UAV project.
