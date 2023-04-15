@@ -1,0 +1,9 @@
+[submodule "image-processing"]
+	path = image-processing
+	url = https://github.com/ByPikod/yelkiran-uav-image-processing.git
+[submodule "simulator"]
+	path = simulator
+	url = https://github.com/ByPikod/yelkiran-uav-simulator.git
+[submodule "ground-station"]
+	path = ground-station
+	url = https://github.com/ByPikod/yelkiran-uav-ground-station.git
