@@ -3,7 +3,7 @@
 <h1>Yelkıran UAV Team</h1>
 <p>This repository contains all the projects we created for making our UAV fly.</p>
 
-![325799552_726848385800002_4639754676481241492_n](https://user-images.githubusercontent.com/46069238/232227646-33929e3b-7a4e-42ce-bb9a-5cce20b95a54.jpg)
+![325799552_726848385800002_4639754676481241492_n-removebg-preview (1)](https://user-images.githubusercontent.com/46069238/233835976-e39c01b0-cd54-4d89-a2d0-274d8ca3c527.png)
 
 <h1>Presentation</h1>
 
