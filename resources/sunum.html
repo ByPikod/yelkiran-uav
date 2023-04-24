@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelkıran UAV - Yazılım Sunumu</title>
+</head>
+<body>
+    <h1>Slide 1</h1>
+    <p>
+        Projemizin yazılım ayağından sorumlu kişi olarak size yazılım sunumunu yapıyor olacağım.
+    </p>
+    <h1>Slide 2</h1>
+    <p>
+        Yelkıran İHA projesini çalıştırmak için yazdığım tüm yazılımları MIT lisans kapsamında paylaştık.
+    </p>
+    <h1>Slide 3</h1>
+    <p>
+        Projenin teknik detaylarından bahsetmeden önce yerlilikle ilgili politikamızdan bahsetmek istiyorum. 
+        Yelkiran İHA'yı tasarlarken yerliliğe odaklandığımız için, görev zorluğu gibi faktörlerden fedakarlık etmeye mecbur kaldık.
+        Böylece simülasyonumuzu ve yer istasyonu yazılımımızı kendimiz geliştirdik.
+    </p>
+
+    <h1>Slide 4</h1>
+    <p>Yelkıran IHA'nın çalışma prensibini gösteren şemayı görüyoruz.</p>
+    <p>
+        Simülasyon ile elde edilen görüntü, işletim sistemi kullanılarak sanal bir kamera olarak aktarılıyor. 
+        Orada da istemci durumunda olan görüntü işleme yazılımı tarafından erişiliyor.
+        Aynı zamanda simülasyon, işlemci ikilisi arasında TCP yani geçiş kontrol protokolü üzerinden ağ bağlantısı kuruludur.
+        Bu ağ üzerinden görüntü işleme yazılımı faydalı yükün bırakılması için sinyal gönderebilmektedir. 
+        Bu prototip geliştirilirse simülasyona İHA ile ilgili daha kapsamlı kontrol sinyalleri verilebilir. 
+    </p>
+    <p>
+        Görüntü işleme yazılımının sonraki adımda görüntüyü yer istasyonuna aktardığı ve yer istasyonundan emir aldığı bir bağlantıyı görebiliyoruz.
+        Bu bağlantı az önce tanıştığımız TCP ve ona ek olarak UDP yani kullanıcı datagram protokolü ile haberleşmekte.
+        Yine görütü işleme yazılımında olduğu gibi bu prototip yer istasyonunu geliştirilirse çok daha kapsamlı bir hale gelebilir.
+    </p>
+    <h1>Slide 5</h1>
+    <p>
+        Yelkıran IHA'nın yazılımlarını önce simülasyon, sonra görüntü işleme ve en son yer istasyonu olacak
+        şekilde inceleyebiliriz.
+    </p>
+    <h1>Slide 6</h1>
+    <p>
+        Ekranda simülasyonun bağlantı beklerken gösterilen arayüzünü görebiliyoruz.
+    </p>
+    <h1>Slide 7</h1>
+    <p>
+        Yelkıran IHA'nın bu simülasyona ihtiyaç duymasının sebeplerinden biri daha önce de belirttiğim gibi yerli bir simülasyonun bulunmamasıydı.
+        Ayrıca diğer yandan SITL gibi alternatif simülatörler görüntü sağlamıyor veya sağlıyorsa bile Yelkıran IHA'nın ihtiyaç duymayacağı gereksiz özelliklerle donatılmış oluyorlardı.
+        Bu yüzden görüntü işlemede kaynak görüntü oluşturmak ve faydalı yükün düşüşünü simüle etmek için Yelkıran IHA'ya özel simülasyonu oluşturdum.
+    </p>
+    <h1>Slide 8</h1>
+    <p>
+        Bu simülasyonu genel olarak 3 adımda geliştirdim. 
+        Simüle ortamının oluşturulması için bir fizik motoru şarttı ve fizik motoru yazmak için çok kısıtlı bir süremiz vardı. 
+        Bu yüzden Unity oyun motorunun dahili fizik motorunu kullandık.
+    </p>
+    <h1>Slide 8</h1>
+
+</body>
+</html>
